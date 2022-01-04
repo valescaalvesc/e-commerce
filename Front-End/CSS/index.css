@@ -1,0 +1,84 @@
+body {
+    /*background-color: black;
+    color: white;*/
+    font-family: "Comic Sans MS", 'Comic Sans', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 50px;
+    background-color: #F19E9E;
+    margin: none;
+}
+
+header .barra-pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 1px solid black;
+    margin: 10px;
+    padding-left: 9px;
+    font-size: 16px;
+    margin-right: 20%;
+    height: 25px;
+    width: 420px;
+}
+
+header .LOGO{
+    font-size: 23px;
+    text-align: center;
+    margin: 8px;
+    margin-left: 2%;
+}
+
+.navbar-principal {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    height: 22px;
+    padding-right: 1%;
+    background-color: #C4C4C4;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: auto;
+}
+
+.navbar-principal a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-principal #todas-categorias{
+    margin-left: 2%;
+}
+
+.navbar-segunda {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    height: 12px;
+    padding-right: 1%;
+    margin-top: 5px;
+    background-color: #544C4C;
+}
+
+.navbar-segunda a{
+    text-decoration: none;
+    color: white;
+}
